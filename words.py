@@ -16,7 +16,7 @@ try:
 			www=""
 			for letter in newword:
 				if letter in tempword:
-					tempword.remove(letter)
+					tempword.remove(letter) # выкидываем повтор€ющиес€ символы
 					i+=1
 					#print ("{} of {} #{} in {}".format(letter, newword,i,x))
 			if i>=x:
